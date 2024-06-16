@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyCase | Latihan Manipulation Object Model</title>
+
+    <style>
+        *,
+        html {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .changeColor {
+            background-color: aqua;
+        }
+
+        .red {
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Hello World 👋🏻</h1>
+        <button id="btn" class="">Click for Change the background</button>
+    </div>
+    <label for="red" class="red">
+        <p>red</p>
+        <input type="range" name="red" min="0" max="255">
+    </label>
+    <label for="green" class="red">
+        <p>green</p>
+        <input type="range" name="green" min="0" max="255">
+    </label>
+    <label for="blue" class="red">
+        <p>blue</p>
+        <input type="range" name="blue" min="0" max="255">
+    </label>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
